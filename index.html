@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Application Form</legend>
+        <select name="opt" id="opt" multiple>
+            <option value="option1">option1</option>
+            <option value="option2">option2</option>
+            <option value="option3">option3</option>
+            <option value="option4">option4</option>
+            <option value="option5">option5</option>
+            <option value="option6">option6</option>
+      </select>
+      <input type="submit" formaction="./index.html" />
+    </fieldset><br /><br /><br />
+
+    <fieldset>
+        <legend>Application Form</legend>
+        <select name="grpopt" id="grpopt">
+            <optgroup label="veg iteams">
+                <option value="panner">Panner</option>
+                <option value="pappu">Pappu</option>
+                <option value="potato fry">Potato Fry</option>
+            </optgroup>
+            <optgroup label="non-veg iteams">
+                <option value="chicken">chicken</option>
+                <option value="mottan">mottan</option>
+                <option value="fish">fish</option>
+            </optgroup>
+        </select>
+        <input type="submit" formaction="./index.html" />
+    </fieldset><br /><br />
+    <fieldset>
+        <legend>Application Form</legend>
+        <form>
+        <input list="colours"  name="clrs" id="clrs" />
+        <datalist id="colours">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="pink">pink</option>
+      </datalist>
+      <input type="submit" formaction="./index.html" />
+        </form>
+    </fieldset><br /><br />
+    <fieldset>
+    <legend>Application Form</legend>
+    <input type="image" src="./th.jpg" height="100" width="100"  formaction="./index.html"/>
+    <input type="submit" value="Navigation" formaction="./index.html" />
+    </fieldset>
+
+    <picture>
+        <source media="(min-width:620px)" srcset="./road-1072823__340.jpg" height="100" weidth="100" />
+        <source media="(min-width:400px)" srcset="./nature-images-6.webp.crdownload" height="100" weidth="100"/>
+        <img src="./th.jpg" height="100" width="100"/>
+    </picture>
+    
+</body>
+</html>
